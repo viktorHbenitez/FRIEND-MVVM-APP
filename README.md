@@ -7,7 +7,7 @@
 2. Service Client that will download data
 3. Data will be modeled to the business logic
 
-![Flow Diagram](https://github.com/viktorHbenitez/FRIEND-MVVM-APP/blob/master/Sketch/FRIEND-APP-MVVM.png)  
+![Flow Diagram](https://github.com/viktorHbenitez/FRIEND-MVVM-APP/blob/main/Sketch/FRIEND-APP-MVVM.png)  
 
 
 [MVVM pattern with Swift application 1/3](http://swiftyjimmy.com/mvvm-with-swift-application-part1/)  
