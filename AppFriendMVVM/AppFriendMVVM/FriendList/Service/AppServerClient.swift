@@ -37,10 +37,10 @@ class AppServerClient {
   }
   
   typealias GetFriendResult = Result<[Friend], GetFriendsFailureError>
-  typealias GetFriendCompletion = (_ result : GetFriendResult) -> ()
+  typealias GetFriendCompletion = (_ result: GetFriendResult) -> Void
   
   // @escaping it means it has a strong reference to every object it capture.
-  func getFriends(completion : @escaping  GetFriendCompletion){
+  func getFriends(completion: @escaping  GetFriendCompletion){
     AF.request("http://friendservice.herokuapp.com/listFriends").validate().responseJSON { response in
       switch response.result{
       case .success:
@@ -51,7 +51,7 @@ class AppServerClient {
           }
           let friends = try JSONDecoder().decode([Friend].self, from: data)
           completion(.success(payload: friends))
-        }catch{
+        } catch{
           completion(.failure(.failed))
           
         }

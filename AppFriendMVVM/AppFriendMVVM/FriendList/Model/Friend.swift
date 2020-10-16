@@ -7,10 +7,16 @@
 
 import Foundation
 
-
 struct Friend: Codable {
   let firstname: String
   let lastname: String
   let phonenumber: String
-  let id: Int
+  let idFriend: Int
+  
+  private enum CodingKeys: String, CodingKey{
+    case firstname
+    case lastname
+    case phonenumber
+    case idFriend = "id"
+  }
 }
