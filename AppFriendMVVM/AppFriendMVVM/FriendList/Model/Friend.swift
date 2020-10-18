@@ -20,3 +20,22 @@ struct Friend: Codable {
     case idFriend = "id"
   }
 }
+
+
+protocol FriendCellViewModelProtocol {
+  var friendItem: Friend { get }
+  var fullName: String { get }
+  var phonenumberText: String { get }
+}
+
+extension Friend: FriendCellViewModelProtocol{
+  var friendItem: Friend {
+      return self
+  }
+  var fullName: String {
+      return firstname + " " + lastname
+  }
+  var phonenumberText: String {
+      return phonenumber
+  }
+}

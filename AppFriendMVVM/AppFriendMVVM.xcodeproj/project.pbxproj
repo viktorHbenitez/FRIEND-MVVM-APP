@@ -7,29 +7,42 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E460A643253A68B100FE5A47 /* Bindable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E460A642253A68B100FE5A47 /* Bindable.swift */; };
+		E460A647253A75C300FE5A47 /* FriendListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E460A646253A75C300FE5A47 /* FriendListViewModel.swift */; };
+		E460A64A253A77A500FE5A47 /* FriendListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E460A649253A77A500FE5A47 /* FriendListViewController.swift */; };
+		E4662732253BA97F000B49B3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4662731253BA97F000B49B3 /* Main.storyboard */; };
+		E4662735253BA9A6000B49B3 /* FriendTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4662734253BA9A6000B49B3 /* FriendTableViewCell.swift */; };
+		E4662738253BAAE6000B49B3 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4662737253BAAE6000B49B3 /* Alert.swift */; };
+		E4AFA4B9253BAE1E0025AFA6 /* UIViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4AFA4B8253BAE1E0025AFA6 /* UIViewControllerExtension.swift */; };
+		E4AFA4BF253BB1DF0025AFA6 /* PKHUD in Frameworks */ = {isa = PBXBuildFile; productRef = E4AFA4BE253BB1DF0025AFA6 /* PKHUD */; };
 		E4CE6F1B25395395002CC417 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4CE6F1A25395395002CC417 /* AppDelegate.swift */; };
 		E4CE6F1D25395395002CC417 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4CE6F1C25395395002CC417 /* SceneDelegate.swift */; };
 		E4CE6F1F25395395002CC417 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4CE6F1E25395395002CC417 /* ViewController.swift */; };
-		E4CE6F2225395395002CC417 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4CE6F2025395395002CC417 /* Main.storyboard */; };
 		E4CE6F2425395396002CC417 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4CE6F2325395396002CC417 /* Assets.xcassets */; };
 		E4CE6F2725395397002CC417 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4CE6F2525395397002CC417 /* LaunchScreen.storyboard */; };
 		E4CE6F322539544D002CC417 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = E4CE6F312539544D002CC417 /* Alamofire */; };
 		E4CE6F3B2539640C002CC417 /* Friend.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4CE6F3A2539640C002CC417 /* Friend.swift */; };
-		E4CE6F3E2539642C002CC417 /* AppServerClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4CE6F3D2539642C002CC417 /* AppServerClient.swift */; };
+		E4CE6F3E2539642C002CC417 /* ListServiceClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4CE6F3D2539642C002CC417 /* ListServiceClient.swift */; };
 		E4CE6F41253964AC002CC417 /* AppServerClient+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4CE6F40253964AC002CC417 /* AppServerClient+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E460A642253A68B100FE5A47 /* Bindable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bindable.swift; sourceTree = "<group>"; };
+		E460A646253A75C300FE5A47 /* FriendListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendListViewModel.swift; sourceTree = "<group>"; };
+		E460A649253A77A500FE5A47 /* FriendListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendListViewController.swift; sourceTree = "<group>"; };
+		E4662731253BA97F000B49B3 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		E4662734253BA9A6000B49B3 /* FriendTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendTableViewCell.swift; sourceTree = "<group>"; };
+		E4662737253BAAE6000B49B3 /* Alert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
+		E4AFA4B8253BAE1E0025AFA6 /* UIViewControllerExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtension.swift; sourceTree = "<group>"; };
 		E4CE6F1725395395002CC417 /* AppFriendMVVM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppFriendMVVM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4CE6F1A25395395002CC417 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E4CE6F1C25395395002CC417 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		E4CE6F1E25395395002CC417 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		E4CE6F2125395395002CC417 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E4CE6F2325395396002CC417 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E4CE6F2625395397002CC417 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E4CE6F2825395397002CC417 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E4CE6F3A2539640C002CC417 /* Friend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Friend.swift; sourceTree = "<group>"; };
-		E4CE6F3D2539642C002CC417 /* AppServerClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppServerClient.swift; sourceTree = "<group>"; };
+		E4CE6F3D2539642C002CC417 /* ListServiceClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListServiceClient.swift; sourceTree = "<group>"; };
 		E4CE6F40253964AC002CC417 /* AppServerClient+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AppServerClient+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -39,12 +52,31 @@
 			buildActionMask = 2147483647;
 			files = (
 				E4CE6F322539544D002CC417 /* Alamofire in Frameworks */,
+				E4AFA4BF253BB1DF0025AFA6 /* PKHUD in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E460A63D253A65C500FE5A47 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				E4AFA4BB253BAE210025AFA6 /* Extensions */,
+				E4662737253BAAE6000B49B3 /* Alert.swift */,
+				E460A642253A68B100FE5A47 /* Bindable.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		E4AFA4BB253BAE210025AFA6 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				E4AFA4B8253BAE1E0025AFA6 /* UIViewControllerExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		E4CE6F0E25395395002CC417 = {
 			isa = PBXGroup;
 			children = (
@@ -66,9 +98,10 @@
 			children = (
 				E4CE6F1A25395395002CC417 /* AppDelegate.swift */,
 				E4CE6F1C25395395002CC417 /* SceneDelegate.swift */,
+				E460A63D253A65C500FE5A47 /* Helpers */,
 				E4CE6F3425395FDD002CC417 /* FriendList */,
 				E4CE6F1E25395395002CC417 /* ViewController.swift */,
-				E4CE6F2025395395002CC417 /* Main.storyboard */,
+				E4662731253BA97F000B49B3 /* Main.storyboard */,
 				E4CE6F2325395396002CC417 /* Assets.xcassets */,
 				E4CE6F2525395397002CC417 /* LaunchScreen.storyboard */,
 				E4CE6F2825395397002CC417 /* Info.plist */,
@@ -90,6 +123,8 @@
 		E4CE6F3525395FEF002CC417 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				E4662734253BA9A6000B49B3 /* FriendTableViewCell.swift */,
+				E460A649253A77A500FE5A47 /* FriendListViewController.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -97,6 +132,7 @@
 		E4CE6F3625395FF4002CC417 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				E460A646253A75C300FE5A47 /* FriendListViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -104,7 +140,7 @@
 		E4CE6F3725396001002CC417 /* Service */ = {
 			isa = PBXGroup;
 			children = (
-				E4CE6F3D2539642C002CC417 /* AppServerClient.swift */,
+				E4CE6F3D2539642C002CC417 /* ListServiceClient.swift */,
 				E4CE6F40253964AC002CC417 /* AppServerClient+Extension.swift */,
 			);
 			path = Service;
@@ -137,6 +173,7 @@
 			name = AppFriendMVVM;
 			packageProductDependencies = (
 				E4CE6F312539544D002CC417 /* Alamofire */,
+				E4AFA4BE253BB1DF0025AFA6 /* PKHUD */,
 			);
 			productName = AppFriendMVVM;
 			productReference = E4CE6F1725395395002CC417 /* AppFriendMVVM.app */;
@@ -167,6 +204,7 @@
 			mainGroup = E4CE6F0E25395395002CC417;
 			packageReferences = (
 				E4CE6F302539544D002CC417 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				E4AFA4BD253BB1DF0025AFA6 /* XCRemoteSwiftPackageReference "PKHUD" */,
 			);
 			productRefGroup = E4CE6F1825395395002CC417 /* Products */;
 			projectDirPath = "";
@@ -182,9 +220,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4662732253BA97F000B49B3 /* Main.storyboard in Resources */,
 				E4CE6F2725395397002CC417 /* LaunchScreen.storyboard in Resources */,
 				E4CE6F2425395396002CC417 /* Assets.xcassets in Resources */,
-				E4CE6F2225395395002CC417 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,9 +254,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				E4CE6F1F25395395002CC417 /* ViewController.swift in Sources */,
-				E4CE6F3E2539642C002CC417 /* AppServerClient.swift in Sources */,
+				E460A643253A68B100FE5A47 /* Bindable.swift in Sources */,
+				E460A64A253A77A500FE5A47 /* FriendListViewController.swift in Sources */,
+				E4CE6F3E2539642C002CC417 /* ListServiceClient.swift in Sources */,
 				E4CE6F1B25395395002CC417 /* AppDelegate.swift in Sources */,
+				E460A647253A75C300FE5A47 /* FriendListViewModel.swift in Sources */,
 				E4CE6F1D25395395002CC417 /* SceneDelegate.swift in Sources */,
+				E4662735253BA9A6000B49B3 /* FriendTableViewCell.swift in Sources */,
+				E4AFA4B9253BAE1E0025AFA6 /* UIViewControllerExtension.swift in Sources */,
+				E4662738253BAAE6000B49B3 /* Alert.swift in Sources */,
 				E4CE6F3B2539640C002CC417 /* Friend.swift in Sources */,
 				E4CE6F41253964AC002CC417 /* AppServerClient+Extension.swift in Sources */,
 			);
@@ -227,14 +271,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		E4CE6F2025395395002CC417 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E4CE6F2125395395002CC417 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		E4CE6F2525395397002CC417 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -424,6 +460,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		E4AFA4BD253BB1DF0025AFA6 /* XCRemoteSwiftPackageReference "PKHUD" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pkluz/PKHUD.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.4.0;
+			};
+		};
 		E4CE6F302539544D002CC417 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
@@ -435,6 +479,11 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		E4AFA4BE253BB1DF0025AFA6 /* PKHUD */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E4AFA4BD253BB1DF0025AFA6 /* XCRemoteSwiftPackageReference "PKHUD" */;
+			productName = PKHUD;
+		};
 		E4CE6F312539544D002CC417 /* Alamofire */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = E4CE6F302539544D002CC417 /* XCRemoteSwiftPackageReference "Alamofire" */;

@@ -7,6 +7,16 @@
 2. Service Client that will download data
 3. Data will be modeled to the business logic
 
+## Second Tasks ViewModel
+1. It loads data (friends) from API Client
+2. It will show the loading progress
+3. Processes data from sever and updates it to view (viewCell)
+4. Handles error situations and updates information to view 
+
+
+![Flow Diagram](https://github.com/viktorHbenitez/FRIEND-MVVM-APP/blob/main/Sketch/version1.png)  
+
+
 ![Flow Diagram](https://github.com/viktorHbenitez/FRIEND-MVVM-APP/blob/main/Sketch/FRIEND-APP-MVVM.png)  
 
 

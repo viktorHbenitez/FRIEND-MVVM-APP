@@ -9,21 +9,12 @@ import UIKit
 import Alamofire
 class ViewController: UIViewController {
 
-  var appServiceClient: AppServerClient = AppServerClient()
+  
+  var friendsVM: FriendListViewModel = FriendListViewModel()
 
   override func viewDidLoad() {
     super.viewDidLoad()
-    executedServiceClient()
+  
   }
   
-  func executedServiceClient(){
-    appServiceClient.getFriends { result in
-      switch result{
-      case .success(let friend):
-        print(friend)
-      case .failure(let error):
-        print(error?.description)
-      }
-    }
-  }
 }
